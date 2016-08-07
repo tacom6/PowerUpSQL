@@ -6,14 +6,14 @@
 ## Function Categories
 
 * [Discovery](https://github.com/NetSPI/PowerUpSQL/wiki/Discovery-Functions)
-* [Attack](https://github.com/NetSPI/PowerUpSQL/wiki/Primary-Attack-Functions)
-* [Core](https://github.com/NetSPI/PowerUpSQL/wiki/Core-Functions)
-* [Common](https://github.com/NetSPI/PowerUpSQL/wiki/Common-Functions)
-* [Utility](https://github.com/NetSPI/PowerUpSQL/wiki/Utility-Functions)
 * [Audit](https://github.com/NetSPI/PowerUpSQL/wiki/Audit-Functions)
+* [Attack](https://github.com/NetSPI/PowerUpSQL/wiki/Primary-Attack-Functions)
 * [Password Recovery](https://github.com/NetSPI/PowerUpSQL/wiki/Password-Recovery-Functions)
 * [Persistence](https://github.com/NetSPI/PowerUpSQL/wiki/Persistence-Functions)
 * [Data Exfiltration](https://github.com/NetSPI/PowerUpSQL/wiki/Data-Exfiltration-Functions)
+* [Core](https://github.com/NetSPI/PowerUpSQL/wiki/Core-Functions)
+* [Common](https://github.com/NetSPI/PowerUpSQL/wiki/Common-Functions)
+* [Utility](https://github.com/NetSPI/PowerUpSQL/wiki/Utility-Functions)
 * [Third Party](https://github.com/NetSPI/PowerUpSQL/wiki/Third-Party-Functions)
 
 ## PowerUpSQL Blogs
