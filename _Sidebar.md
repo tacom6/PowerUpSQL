@@ -3,7 +3,7 @@
 * [Overview](https://github.com/NetSPI/PowerUpSQL/wiki/Overview-of-PowerUpSQL)
 * [Setup](https://github.com/NetSPI/PowerUpSQL/wiki/Setting-Up-PowerUpSQL)
 
-## PowerUpSQL Function Groups
+## PowerUpSQL Function Categories
 
 * [Discovery Functions](https://github.com/NetSPI/PowerUpSQL/wiki/Discovery-Functions)
 * [Attack Functions](https://github.com/NetSPI/PowerUpSQL/wiki/Primary-Attack-Functions)
