@@ -9,6 +9,7 @@
 * [Primary Attack Functions](https://github.com/NetSPI/PowerUpSQL/wiki/Primary-Attack-Functions)
 * [Core Functions](https://github.com/NetSPI/PowerUpSQL/wiki/Core-Functions)
 * [Common Functions](https://github.com/NetSPI/PowerUpSQL/wiki/Common-Functions)
+* [Utility Functions](https://github.com/NetSPI/PowerUpSQL/wiki/Utility-Functions)
 * [Audit Functions](https://github.com/NetSPI/PowerUpSQL/wiki/Audit-Functions)
 * [Password Recovery Functions](https://github.com/NetSPI/PowerUpSQL/wiki/Password-Recovery-Functions)
 * [Persistence Functions](https://github.com/NetSPI/PowerUpSQL/wiki/Persistence-Functions)
