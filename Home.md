@@ -1,5 +1,4 @@
-![alt tag](https://raw.githubusercontent.com/NetSPI/PowerUpSQL/master/scripts/PowerUpSQL-LogoSm.png)  
-### PowerUpSQL: A PowerShell Toolkit for Attacking SQL Server
+## PowerUpSQL: A PowerShell Toolkit for Attacking SQL Server
 
 The PowerUpSQL module includes functions that support SQL Server discovery, auditing for common weak configurations, and privilege escalation on scale.  It is intended to be used during internal penetration tests and red team engagements. However, PowerUpSQL also includes many functions that could be used by administrators to quickly inventory the SQL Servers in their ADS domain.
 
@@ -12,7 +11,7 @@ The PowerUpSQL module includes functions that support SQL Server discovery, audi
 * Portability: Default .net libraries are used and there are no dependencies on SQLPS or the SMO libraries. Functions have also been designed so they can be run independently. As a result, it's easy to use on any Windows system with PowerShell v3 installed.
 
 
-### Module Information
+## Module Information
 * Author: Scott Sutherland (@_nullbind), NetSPI - 2016
 * Contributors: Antti Rantasaari and Eric Gruber (@egru)
 * License: BSD 3-Clause
