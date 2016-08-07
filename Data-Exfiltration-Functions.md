@@ -7,6 +7,7 @@ These functions are used for exfiltrating data out of SQL Server.  The roadmap f
 	Get-SQLExfilDns								      
 	Get-SQLExfilSmb								     
 	Get-SQLExfilSmtp							     
-	Get-SQLExfilFtp								      
+	Get-SQLExfilFtp		
+	Get-SQLExfilIcmp					      
 	Get-SQLExfilServerLink						  
 	Get-SQLExfilAdHocQuery		
