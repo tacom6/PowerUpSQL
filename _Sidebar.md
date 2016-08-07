@@ -1,6 +1,6 @@
 ## Introduction
 
-* [Overview](https://github.com/NetSPI/PowerUpSQL/wiki)
+* [Overview](https://github.com/NetSPI/PowerUpSQL/wiki/PowerUpSQL-Overview)
 * [Setup](https://github.com/NetSPI/PowerUpSQL/wiki/Setting-Up-PowerUpSQL)
 
 ## PowerUpSQL Function Groups
