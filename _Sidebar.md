@@ -6,7 +6,7 @@
 **PowerUpSQL Function Groups**
 
 * [Discovery Functions](https://github.com/NetSPI/PowerUpSQL/wiki/Discovery-Functions)
-* [Primary Attack Functions](https://github.com/NetSPI/PowerUpSQL/wiki/Primary-Attack-Functions)
+* [Attack Functions](https://github.com/NetSPI/PowerUpSQL/wiki/Primary-Attack-Functions)
 * [Core Functions](https://github.com/NetSPI/PowerUpSQL/wiki/Core-Functions)
 * [Common Functions](https://github.com/NetSPI/PowerUpSQL/wiki/Common-Functions)
 * [Utility Functions](https://github.com/NetSPI/PowerUpSQL/wiki/Utility-Functions)
