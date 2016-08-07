@@ -13,3 +13,4 @@ These functions are used for exfiltrating data out of SQL Server.  The roadmap f
 	Get-SQLExfilTcp
 	Get-SQLExfilServerLink						  
 	Get-SQLExfilAdHocQuery		
+	Get-SQLExfilRemoteServer
