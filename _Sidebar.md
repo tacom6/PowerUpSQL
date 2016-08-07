@@ -1,4 +1,4 @@
-# **PowerUpSQL Introduction**
+### PowerUpSQL Introduction
 
 * [Overview](https://github.com/NetSPI/PowerUpSQL/wiki)
 * [Setup](https://github.com/NetSPI/PowerUpSQL/wiki/Setting-Up-PowerUpSQL)
