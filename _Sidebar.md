@@ -1,0 +1,1 @@
+[test](https://github.com/NetSPI/PowerUpSQL/wiki/Data-Exfiltration-Functions)
