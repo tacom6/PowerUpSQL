@@ -9,7 +9,7 @@
 
     `IEX(New-Object System.Net.WebClient).DownloadString("https://raw.githubusercontent.com/NetSPI/PowerUpSQL/master/PowerUpSQL.ps1")`
 
-     Note: To run as an alternative domain user, use the runas command to launch PowerShell first. 
+     **Note:** To run as an alternative domain user, use the runas command to launch PowerShell first. 
 
     `runas /noprofile /netonly /user:domain\user PowerShell.exe`
 
