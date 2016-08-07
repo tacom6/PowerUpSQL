@@ -3,7 +3,7 @@
 * [Overview](https://github.com/NetSPI/PowerUpSQL/wiki)
 * [Setup](https://github.com/NetSPI/PowerUpSQL/wiki/Setting-Up-PowerUpSQL)
 
-**PowerUpSQL Function Groups**
+## PowerUpSQL Function Group
 
 * [Discovery Functions](https://github.com/NetSPI/PowerUpSQL/wiki/Discovery-Functions)
 * [Attack Functions](https://github.com/NetSPI/PowerUpSQL/wiki/Primary-Attack-Functions)
@@ -16,7 +16,7 @@
 * [Data Exfiltration Functions](https://github.com/NetSPI/PowerUpSQL/wiki/Data-Exfiltration-Functions)
 * [Third Party Functions](https://github.com/NetSPI/PowerUpSQL/wiki/Third-Party-Functions)
 
-**PowerUpSQL Blogs**
+## PowerUpSQL Blogs
 
 * [Introduction to PowerUpSQL](https://blog.netspi.com/powerupsql-powershell-toolkit-attacking-sql-server/)
 * [Blindly Discover SQL Server Instances](https://blog.netspi.com/blindly-discover-sql-server-instances-powerupsql/)
