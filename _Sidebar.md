@@ -1,9 +1,9 @@
-## PowerUpSQL Introduction
+## Introduction
 
 * [Overview](https://github.com/NetSPI/PowerUpSQL/wiki)
 * [Setup](https://github.com/NetSPI/PowerUpSQL/wiki/Setting-Up-PowerUpSQL)
 
-## PowerUpSQL Function Group
+## PowerUpSQL Function Groups
 
 * [Discovery Functions](https://github.com/NetSPI/PowerUpSQL/wiki/Discovery-Functions)
 * [Attack Functions](https://github.com/NetSPI/PowerUpSQL/wiki/Primary-Attack-Functions)
