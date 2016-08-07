@@ -1,4 +1,3 @@
-### Installing the Module
 * Option 1: Install it from the PowerShell Gallery.  This requires local administrative privileges and will permanently install the module.
 
     `Install-Module -Name PowerUpSQL`
