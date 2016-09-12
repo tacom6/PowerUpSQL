@@ -47,3 +47,4 @@ Invoke-SQLAuditPrivDbChaining|Check if database ownership chaining is enabled at
 	Invoke-SQLAuditSQLi-ImpersonateLogin - https://blog.netspi.com/hacking-sql-server-stored-procedures-part-3-sqli-and-user-impersonation/
 	Invoke-SQLAuditSQLi-ImpersonateSignedSp - https://blog.netspi.com/hacking-sql-server-stored-procedures-part-3-sqli-and-user-impersonation/
 	Invoke-SQLOSAdmintoSysadmin - https://github.com/nullbind/Powershellery/blob/master/Stable-ish/MSSQL/Invoke-SqlServerServiceImpersonation-Cmd.ps1
+	Invoke-SQLFindSharedSa   
