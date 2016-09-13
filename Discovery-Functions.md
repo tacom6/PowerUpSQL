@@ -20,3 +20,6 @@ These functions can be used for enumerating SQL Server instances.  Discovered in
 	
 	Get-SQLInstanceScanTCP - Returns SQL Server instances from TCP scan results.
 	Get-SQLInstanceBroadcast - Returns SQL Server instances from UDP broadcast.
+	Get-SQLInstanceAzure - Returns SQL Server instances from Azure environments.
+	Get-SQLInstanceAzureFuzz - Returns SQL Server instances from Azure environments via blind dictionary attack. (x.databases.windows.net)
+
