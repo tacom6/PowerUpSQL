@@ -16,7 +16,7 @@
 * [Utility](https://github.com/NetSPI/PowerUpSQL/wiki/Utility-Functions)
 * [Third Party](https://github.com/NetSPI/PowerUpSQL/wiki/Third-Party-Functions)
 
-## PowerUpSQL Presentations
+## PowerUpSQL Talks
 * [DerbyCon 6.0 Slides](http://www.slideshare.net/nullbind/derbycon2016-hacking-sql-server-on-scale-with-powershell)
 * [DerbyCon 6.0 Videos](https://www.youtube.com/watch?v=xLbPztByc8M)
 
