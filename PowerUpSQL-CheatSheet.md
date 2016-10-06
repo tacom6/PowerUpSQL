@@ -17,7 +17,7 @@ Below is a list of some of the most common PowerUpSQL functions used during pent
 |Grab basic server information | `$Targets | Get-SQLServerInfoThreaded -Threads 10 -Verbose`
 |Grab list of non-default databases | `$Targets | Get-SQLDatabaseThreaded –Verbose –Threads 10 -NoDefaults`
 |Dump common information from server to files|`Invoke-SQLDumpInfo -Verbose -Instance SQLSERVER1\Instance1 -csv`
-|Find sensitive data based on column name |`$Targets |  Get-SQLColumnSampleDataThreaded –Verbose –Threads 10–Keyword "credit,ssn,password" –SampleSize 2 –ValidateCC –NoDefaults`
+|Find sensitive data based on column name |`$Targets |  Get-SQLColumnSampleDataThreaded –Verbose –Threads 10 –Keyword "credit,ssn,password" –SampleSize 2 –ValidateCC –NoDefaults`
 |Find sensitive data based on column name, but only target databases with transparent encryption|`$Targets | Get-SQLDatabaseThreaded –Verbose –Threads 10 -NoDefaults | Where-Object {$_.is_encrypted –eq “TRUE”} | Get-SQLColumnSampleDataThreaded –Verbose –Threads 10 –Keyword “card, password” –SampleSize 2 –ValidateCC -NoDefaults`
 
 ## Privilege Escalation Cheats
