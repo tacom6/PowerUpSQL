@@ -2,6 +2,7 @@
 
 * [Overview](https://github.com/NetSPI/PowerUpSQL/wiki/Overview-of-PowerUpSQL)
 * [Setup](https://github.com/NetSPI/PowerUpSQL/wiki/Setting-Up-PowerUpSQL)
+* [CheatSheets](https://github.com/NetSPI/PowerUpSQL/wiki/PowerUpSQL-CheatSheet)
 
 ## Function Categories
 
