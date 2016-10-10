@@ -12,6 +12,7 @@ These are essentially helper functions.  Some of them are used by other PowerUpS
 |Create-SQLFileXpDll | Used to create CPP DLLs with exported functions that can be imported as extended stored procedures in SQL Server. Supports arbitrary command execution.|
 |Get-DomainSpn | Returns a list of SPNs for the target domain. Supports authentication from non domain systems.|
 |Get-DomainObject | Used to query domain controllers via LDAP.  Supports alternative credentials from non-domain system.|
+|Get-SQLStoredProcedureSQLi|Returns stored procedures using dynamic SQL and the "WITH EXECUTE AS OWNER" clause. If the stored procedure is vulnerable to SQLi it may be possible to impersonate the procedure owner.
 
 **Examples:** 
 
