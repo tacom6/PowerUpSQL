@@ -38,7 +38,7 @@ These functions are used for common information gathering tasks.  Similar to cor
 	Get-SQLInstanceLocal | Get-SQLColumnSampleData -Keywords "account,credit,card" -SampleSize 5 -ValidateCC 
 
 **Roadmap:**
-	
+	Get-SQLSubSystem - Returns sub systems from target SQL Servers that are supported by the job agent.
 	Get-SQLProxyAccount - Returns proxy accounts from target SQL Servers.
 	Get-SQLTempObject - Returns temp objects from target SQL Servers.	
 	Get-SQLCachePlan - Returns cache plans from target SQL Servers.	
