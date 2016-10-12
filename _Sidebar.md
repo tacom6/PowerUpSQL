@@ -29,3 +29,13 @@
 * [Finding Weak Passwords for Domain SQL Servers on Scale](https://blog.netspi.com/identifying-domain-sql-servers-configured-with-weak-passwords-on-scale-using-powerupsql/)
 * [Get Windows Auto Login Passwords via SQL Server](https://blog.netspi.com/get-windows-auto-login-passwords-via-sql-server-powerupsql/)
 * [Establishing Registry Persistence via SQL Server](https://blog.netspi.com/establishing-registry-persistence-via-sql-server-powerupsql/)
+
+## PowerUpSQL Videos
+
+* [Discover SQL Server Instances](https://www.youtube.com/watch?v=HFYdGgOb32o)
+* [Audit Configurations] (https://www.youtube.com/watch?v=b1gb3v1WWmo)
+* [Exploit Weak Configurations](https://www.youtube.com/watch?v=gPbxLqSdiuk)
+* [Find Sensitive Data](https://www.youtube.com/watch?v=EfQHaYu_OyU)
+* [UNC Path Injection](https://www.youtube.com/watch?v=a07OcFkeu8w)
+* [Database Link Crawling](https://www.youtube.com/watch?v=7_5E0enLQ9U)
+
