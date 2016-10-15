@@ -13,7 +13,8 @@ Invoke-SQLAuditPrivDbChaining|Check if database ownership chaining is enabled at
 |Invoke-SQLAuditRoleDbOwner|Check if the current login has the DB_OWNER role in any databases.  Attempt to use permission to obtain sysadmin privileges.|Yes|
 |Invoke-SQLAuditSampleDataByColumn|Check if the current login can access any database columns that contain the word password. Supports column name keyword search and custom data sample size.  For better data searches use Get-SQLColumnSampleData.|No|
 |Invoke-SQLAuditWeakLoginPw|This can be used for online dictionary attacks. It also support auto-discovery of SQL Logins for testing if you already have a least privilege account.|Yes|
-|Invoke-SQLAuditSQLiExecuteAs|This will return stored procedures using dynamic SQL and the "EXECUTE AS OWNER" clause.  If a procedure is vulnerable to SQLi it may be possible to impersonate the procedure owner.|No
+|Invoke-SQLAuditSQLiSpExecuteAs|This will return stored procedures using dynamic SQL and the "EXECUTE AS OWNER" clause.  If a procedure is vulnerable to SQLi it may be possible to impersonate the procedure owner.|No
+|Invoke-SQLAuditSQLiSpSigned|This will return stored procedures using dynamic SQL that are signed by a cert login.  If a procedure is vulnerable to SQLi it may be possible to impersonate the cert login.|No
 
 **Examples:** 
 
