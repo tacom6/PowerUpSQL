@@ -20,7 +20,9 @@ These are essentially helper functions.  Some of them are used by other PowerUpS
 
 **Roadmap:**
 
-	Get-SQLDatabaseOrphanUser             		
+	Get-SQLFuzzDatabase
+        Get-SQLFuzzSchema
+        Get-SQLDatabaseOrphanUser             		
 	Get-SQLDatabaseUser- add fuzzing option		
 	Get-SQLDecryptedStoreProcedure            	
 	Get-SQLDownloadFile				
