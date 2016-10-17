@@ -5,8 +5,10 @@ Below is a list of some of the most common PowerUpSQL functions used during pent
 |:--------------------------------|:-----------|
 |Discover Local SQL Server Instances |`Get-SQLInstanceLocal -Verbose`
 |Discover Remote SQL Server Instances | `Get-SQLInstanceScanUDPThreaded -Verbose -ComputerName SQLServer1` <br>`Get-SQLInstanceFile -FilePath c:\temp\computers.txt | Get-SQLInstanceScanUDPThreaded -Verbose`
+||Discover domain SQL Server Instance as different user|`runas /noprofile /netonly /user:domain\user PowerShell.exe
+Get-SQLInstanceDomain | Get-SQLConnectionTestThreaded -Verbose -Threads 15`
 |Discover domain SQL Server Instances | `Get-SQLInstanceDomain -Verbose`
-|Discover domain accounts used to run multiple SQL Servers | `Get-SQLInstanceDomain -Verbose | Where-Object {$_.DomainAccount -notlike "*$"} | Group-Object DomainAccount | Select Count, Name | Sort-Object Name -Descending`
+|Discover domain SQL Server Instances using alternative credentials | `runas /noprofile /netonly /user:domain\user PowerShell.exe`<Br>`Get-SQLInstanceDomain | Get-SQLConnectionTestThreaded -Verbose -Threads 15`
 |List SQL Servers using a specific domain account| `Get-SQLInstanceDomain -Verbose -DomainAccount SQLSvc`
 |Get a list of domain SQL servers that can be logged into|`$Targets = Get-SQLInstanceDomain -Verbose | Get-SQLConnectionTestThreaded -Verbose -Threads 10 | Where-Object {$_.Status -like "Accessible"}`<br>`$Targets`
 
