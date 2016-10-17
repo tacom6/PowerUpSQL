@@ -24,7 +24,7 @@ Below is a list of some of the most common PowerUpSQL functions used during pent
 |Description|Command|
 |:--------------------------------|:-----------|
 |Audit for Issues| `Invoke-SQLAudit -Verbose -Instance SQLServer1`
-|Escalate to sysadmin | `Invoke-SQLPrivEsc -Verbose -Instance SQLServer1`
+|Escalate to sysadmin | `Invoke-SQLEscalatePriv -Verbose -Instance SQLServer1`
 |Execute OS commands | `$Targets | Invoke-SQLOSCmd -Verbose -Command "Whoami" -Threads 10`
 |Crawl database links|`Import-Module C:\PowerUpSQL-master\scripts\Get-SqlServerLinkCrawl.ps1`<br>`Get-SqlCrawl -Verbose -Instance SQLSERVER1\Instance1` 
 |Crawl database links and execute query|`Import-Module C:\PowerUpSQL-master\scripts\Get-SqlServerLinkCrawl.ps1` <br> `Get-SQLCrawl -instance "SQLSERVER1\Instance1" -Query "select name from master..sysdatabases"`
