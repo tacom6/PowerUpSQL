@@ -4,13 +4,18 @@ Below is a list of some of the most common PowerUpSQL functions used during pent
 |Description|Command|
 |:--------------------------------|:-----------|
 |Discover Local SQL Server Instances |`Get-SQLInstanceLocal -Verbose`
-|Discover Remote SQL Server Instances | `Get-SQLInstanceScanUDPThreaded -Verbose -ComputerName SQLServer1` <br>`Get-SQLInstanceFile -FilePath c:\temp\computers.txt | Get-SQLInstanceScanUDPThreaded -Verbose`
-||Discover domain SQL Server Instance as different user|`runas /noprofile /netonly /user:domain\user PowerShell.exe
-Get-SQLInstanceDomain | Get-SQLConnectionTestThreaded -Verbose -Threads 15`
+|Discover Remote SQL Server Instances | `Get-SQLInstanceScanUDPThreaded -Verbose -ComputerName SQLServer1` <br>or<br>`Get-SQLInstanceFile -FilePath c:\temp\computers.txt | Get-SQLInstanceScanUDPThreaded -Verbose`
 |Discover domain SQL Server Instances | `Get-SQLInstanceDomain -Verbose`
-|Discover domain SQL Server Instances using alternative credentials | `runas /noprofile /netonly /user:domain\user PowerShell.exe`<Br>`Get-SQLInstanceDomain | Get-SQLConnectionTestThreaded -Verbose -Threads 15`
+|Discover domain SQL Server Instance using alternative domain credentials|`runas /noprofile /netonly /user:domain\user PowerShell.exe`<br>`Get-SQLInstanceDomain`
 |List SQL Servers using a specific domain account| `Get-SQLInstanceDomain -Verbose -DomainAccount SQLSvc`
-|Get a list of domain SQL servers that can be logged into|`$Targets = Get-SQLInstanceDomain -Verbose | Get-SQLConnectionTestThreaded -Verbose -Threads 10 | Where-Object {$_.Status -like "Accessible"}`<br>`$Targets`
+
+## SQL Server Login Test Cheats
+|Description|Command|
+|:--------------------------------|:-----------|
+|Get a list of domain SQL servers that can be logged into with a provided SQL Server login|`$Targets = Get-SQLInstanceDomain -Verbose | Get-SQLConnectionTestThreaded -Verbose -Threads 10 -username testuser -password testpass | Where-Object {$_.Status -like "Accessible"}`<br>`$Targets`
+|Get a list of domain SQL servers that can be logged into with the current domain account|`$Targets = Get-SQLInstanceDomain -Verbose | Get-SQLConnectionTestThreaded -Verbose -Threads 10 | Where-Object {$_.Status -like "Accessible"}`<br>`$Targets`
+|Get a list of domain SQL servers that can be logged into using an alternative domain account | `runas /noprofile /netonly /user:domain\user PowerShell.exe`<Br>`Get-SQLInstanceDomain | Get-SQLConnectionTestThreaded -Verbose -Threads 15`
+| Discover domain SQL Servers and determine if they are configured with default passwords based on the instance name | `Get-SQLInstanceDomain | Get-SQLServerLoginDefaultPw -Verbose`
 
 ## Data Targeting Cheats
 |Description|Command|
