@@ -15,6 +15,7 @@ Invoke-SQLAuditPrivDbChaining|Check if database ownership chaining is enabled at
 |Invoke-SQLAuditWeakLoginPw|This can be used for online dictionary attacks. It also support auto-discovery of SQL Logins for testing if you already have a least privilege account.|Yes|
 |Invoke-SQLAuditSQLiSpExecuteAs|This will return stored procedures using dynamic SQL and the "EXECUTE AS OWNER" clause.  If a procedure is vulnerable to SQLi it may be possible to impersonate the procedure owner.|No
 |Invoke-SQLAuditSQLiSpSigned|This will return stored procedures using dynamic SQL that are signed by a cert login.  If a procedure is vulnerable to SQLi it may be possible to impersonate the cert login.|No
+|Invoke-SQLAuditPrivAutoExecSp|Returns a list of stored procedures configured to automatically run when the SQL Server service is restarted that have explicit permissions assigned.|No|
 
 **Examples:** 
 
