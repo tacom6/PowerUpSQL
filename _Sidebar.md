@@ -20,7 +20,7 @@
 ## PowerUpSQL Talks
 * [DerbyCon 6.0 Slide Deck](http://www.slideshare.net/nullbind/derbycon2016-hacking-sql-server-on-scale-with-powershell)
 * [DerbyCon 6.0 Video](https://www.youtube.com/watch?v=xLbPztByc8M)
-* [PASS Webinar Video](https://youtu.be/npoORzfP7rw)
+* [2016 Oct. PASS Webinar Video](https://youtu.be/npoORzfP7rw)
 
 ## PowerUpSQL Blogs
 
