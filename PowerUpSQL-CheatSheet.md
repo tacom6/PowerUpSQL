@@ -6,7 +6,7 @@ Below is a list of some of the most common PowerUpSQL functions used during pent
 |Discover Local SQL Server Instances |`Get-SQLInstanceLocal -Verbose`
 |Discover Remote SQL Server Instances | `Get-SQLInstanceScanUDPThreaded -Verbose -ComputerName SQLServer1` <br>or<br>`Get-SQLInstanceFile -FilePath c:\temp\computers.txt | Get-SQLInstanceScanUDPThreaded -Verbose`
 |Discover domain SQL Server Instances | `Get-SQLInstanceDomain -Verbose`
-|Discover domain SQL Server Instance using alternative domain credentials|`runas /noprofile /netonly /user:domain\user PowerShell.exe`<br>`Get-SQLInstanceDomain`
+|Discover domain SQL Server Instance using alternative domain credentials|`runas /noprofile /netonly /user:domain\user PowerShell.exe`<br>`import-module PowerUpSQL.psd1`<br>`Get-SQLInstanceDomain`
 |List SQL Servers using a specific domain account| `Get-SQLInstanceDomain -Verbose -DomainAccount SQLSvc`
 
 ## SQL Server Login Test Cheats
