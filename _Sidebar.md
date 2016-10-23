@@ -18,9 +18,10 @@
 * [Third Party](https://github.com/NetSPI/PowerUpSQL/wiki/Third-Party-Functions)
 
 ## PowerUpSQL Talks
-* [DerbyCon 6.0 Slide Deck](http://www.slideshare.net/nullbind/derbycon2016-hacking-sql-server-on-scale-with-powershell)
-* [DerbyCon 6.0 Video](https://www.youtube.com/watch?v=xLbPztByc8M)
-* [2016 Oct. PASS Webinar Video](https://youtu.be/npoORzfP7rw)
+* 2016 OCT [Arcticcon slides](http://www.slideshare.net/nullbind/2016-arcticcon-hacking-sql-server-on-scale-with-powershell-v2)
+* 2016 OCT [PASS Webinar Video](https://youtu.be/npoORzfP7rw)
+* 2016 SEPT [DerbyCon 6.0 Slide Deck](http://www.slideshare.net/nullbind/derbycon2016-hacking-sql-server-on-scale-with-powershell)
+* 2016 SEPT [DerbyCon 6.0 Video](https://www.youtube.com/watch?v=xLbPztByc8M)
 
 ## PowerUpSQL Blogs
 
