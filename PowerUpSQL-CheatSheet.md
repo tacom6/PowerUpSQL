@@ -8,6 +8,7 @@ Below is a list of some of the most common PowerUpSQL functions used during pent
 |Discover domain SQL Server Instances | `Get-SQLInstanceDomain -Verbose`
 |Discover domain SQL Server Instance using alternative domain credentials|`runas /noprofile /netonly /user:domain\user PowerShell.exe`<br>`import-module PowerUpSQL.psd1`<br>`Get-SQLInstanceDomain`
 |List SQL Servers using a specific domain account| `Get-SQLInstanceDomain -Verbose -DomainAccount SQLSvc`
+|List shared domain user SQL Server service accounts|`Get-SQLInstanceDomain -Verbose | Group-Object DomainAccount | Sort-Object count -Descending | select Count,Name | Where-Object {($_.name -notlike "*$") -and ($_.count -gt 1) }`
 
 ## SQL Server Login Test Cheats
 |Description|Command|
