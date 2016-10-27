@@ -22,9 +22,10 @@ These are essentially helper functions.  Some of them are used by other PowerUpS
 **Roadmap:**
 
 	Get-SQLFuzzDatabase
-        Get-SQLFuzzSchema
-        Get-SQLDatabaseOrphanUser             		
-	Get-SQLDatabaseUser- add fuzzing option		
+	Get-SQLFuzzSchema
+	Get-SQLDatabaseOrphanUser             		
+	Get-SQLDatabaseUser - add fuzzing option
+	Get-SQLStoredProcedureEncrypted		
 	Get-SQLDecryptedStoreProcedure            	
 	Get-SQLDownloadFile				
 	Get-SQLDownloadFileAdHocQuery			
@@ -40,13 +41,16 @@ These are essentially helper functions.  Some of them are used by other PowerUpS
 	Get-SQLUploadFileAssembly             		
 	Get-SQLUploadFileServerLink             	
 	Get-SQLUploadFileXpCmdshell             	
-	Invoke-SqlOSCmdAdHoQueryMd			
-	Invoke-SqlOSCmdAgentActiveX            	
+	Invoke-SqlOSCmdAdHoQueryMd			            	
 	Invoke-SqlOSCmdAgentAnalysis			
-	Invoke-SqlOSCmdAgentCmdExe			
-	Invoke-SqlOSCmdAgentPs			
+	Invoke-SqlOSCmdAgentCmdExec			
+	Invoke-SqlOSCmdAgentPs		
+	Invoke-SqlOSCmdAgentActiveX	
 	Invoke-SqlOSCmdAgentVbscript			
-	Invoke-SqlOSCmdAssembly             		
+	Invoke-SqlOSCmdAgentJsscript
+	Invoke-SqlOSCmdAgentOther
+	Invoke-SqlOSCmdAssemblyCLR
+	Invoke-SqlOSCmdAssemblyXP             		
 	Invoke-SqlOSCmdServerLinkMd			
 	Invoke-SqlOSCmdSsisExecuteProcessTask
 	Create-SQLFileCLRDll
