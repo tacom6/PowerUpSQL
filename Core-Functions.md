@@ -13,3 +13,11 @@ These functions are used to test connections, execute SQL Server queries, and ex
 
 	Get-SQLInstanceDomain -Verbose | Get-SQLConnectionTestThreaded -Verbose -Threads 10 
 	Get-SQLInstanceDomain -Verbose | Invoke-SQLOSCmd -Verbose -Threads 10 -Command "whoami"
+
+**RoadMap**
+
+	Add Encrypt option to core functions
+	Add ApplicationName option to core functions
+	Add PacketSize option to core functions
+	Add ForceNamedPipe option to core functions
+	https://gist.githubusercontent.com/nullbind/91c573b0e27682733f97d4e6eebe36f8/raw/b37e5fc6ee115a980fe248927e0646429122b7a2/SQL%2520Server%2520Connection%2520Strings%2520CheatSheet
