@@ -55,3 +55,5 @@ These are essentially helper functions.  Some of them are used by other PowerUpS
 	Invoke-SqlOSCmdSsisExecuteProcessTask
 	Create-SQLFileCLRDll
 	Create-SQLFileXpDll
+	Enable-FullRegRead
+	Disable-FullRegRead
