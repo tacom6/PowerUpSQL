@@ -23,11 +23,8 @@ Invoke-SQLAuditPrivDbChaining|Check if database ownership chaining is enabled at
 	
 **Roadmap:**
 	
-	Create-SqlAuditPrivCreateStartUpProc
 	Invoke-SQLAuditCrawlOwnershipChain	
 	Invoke-SQLAuditCrawlServerLink
-	Invoke-SQLAuditDictionaryAttackOffline
-	Invoke-SQLAuditDictionaryAttackOnline
 	Invoke-SQLAuditImpersonateDatabaseUser
 	Invoke-SQLAuditPrivAdministerBulkOps
 	Invoke-SQLAuditPrivAgentJob 
@@ -35,18 +32,13 @@ Invoke-SQLAuditPrivDbChaining|Check if database ownership chaining is enabled at
 	Invoke-SQLAuditPrivAlterServerLogin
 	Invoke-SQLAuditPrivAlterServerRole
 	Invoke-SQLAuditPrivControlServer
-	Invoke-SQLAuditPrivControlServer
-	Invoke-SQLAuditPrivCreateAssembly -CLR -Binary -C
-	Invoke-SQLAuditPrivCreateStartUpSP
 	Invoke-SQLAuditPrivCreateTriggerDDL
 	Invoke-SQLAuditPrivCreateTriggerDML
 	Invoke-SQLAuditPrivCreateTriggerLOGON
-	Invoke-SQLAuditPrivExternalAssembly
+	Invoke-SQLAuditPrivCreateAssembly
 	Invoke-SqlAuditPrivInjectUncPath - https://github.com/nullbind/Powershellery/blob/master/Stable-ish/MSSQL/Get-SQLServiceAccountPwHash.ps1
 	Invoke-SqlAuditPrivXpCmdshell
 	Invoke-SQLAuditRoledbAccessAdmin	
 	Invoke-SQLAuditRoledbSecurityAdmin
-	Invoke-SQLAuditSQLi-ImpersonateSignedSp - https://blog.netspi.com/hacking-sql-server-stored-procedures-part-3-sqli-and-user-impersonation/
 	Invoke-SQLOSAdmintoSysadmin - https://github.com/nullbind/Powershellery/blob/master/Stable-ish/MSSQL/Invoke-SqlServerServiceImpersonation-Cmd.ps1
 	Invoke-SQLFindSharedSa   
-	Invoke-SQLFindDefaultPasswords
