@@ -2,6 +2,7 @@ These functions are used for common information gathering tasks.  Similar to cor
 
 |Function Name                 |Description |
 |:-----------------------------|:-----------|
+|Get-SQLAgentJob|Returns a list of SQL Agent jobs from target servers that includes the command to be executed.|
 |Get-SQLAuditDatabaseSpec|Returns Audit database specifications from target SQL Servers.|
 |Get-SQLAuditServerSpec|Returns Audit server specifications from target SQL Servers.|
 |Get-SQLColumn|Returns column information from target SQL Servers. Supports keyword search.|
