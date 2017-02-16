@@ -20,6 +20,7 @@ These functions are used for common information gathering tasks.  Similar to cor
 |Get-SQLServerInfo|Returns basic server and user information from target SQL Servers.|
 |Get-SQLServerInfoThreaded|Returns basic server and user information from target SQL Servers. Supports host threading.|
 |Get-SQLServerLink|Returns link servers from target SQL Servers.|
+|Get-SQLServerLinkCrawl|Crawls linked servers and supports SQL query and OS command execution.|
 |Get-SQLServerLogin|Returns logins from target SQL Servers.|
 |Get-SQLServerPriv|Returns SQL Server login privilege information from target SQL Servers.|
 |Get-SQLServerRole|Returns SQL Server role information from target SQL Servers.|
