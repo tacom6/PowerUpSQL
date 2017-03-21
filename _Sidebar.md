@@ -31,6 +31,7 @@
 * [Finding Weak Passwords for Domain SQL Servers on Scale](https://blog.netspi.com/identifying-domain-sql-servers-configured-with-weak-passwords-on-scale-using-powerupsql/)
 * [Get Windows Auto Login Passwords via SQL Server](https://blog.netspi.com/get-windows-auto-login-passwords-via-sql-server-powerupsql/)
 * [Establishing Registry Persistence via SQL Server](https://blog.netspi.com/establishing-registry-persistence-via-sql-server-powerupsql/)
+*[Crawling SQL Server Links](https://blog.netspi.com/sql-server-link-crawling-powerupsql/)
 
 ## PowerUpSQL Videos
 
