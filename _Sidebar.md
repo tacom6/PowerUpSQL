@@ -35,7 +35,7 @@
 ## PowerUpSQL Videos
 
 * [Discover SQL Server Instances](https://www.youtube.com/watch?v=HFYdGgOb32o)
-* [Audit Configurations] (https://www.youtube.com/watch?v=b1gb3v1WWmo)
+* [Audit Configurations](https://www.youtube.com/watch?v=b1gb3v1WWmo)
 * [Exploit Weak Configurations](https://www.youtube.com/watch?v=gPbxLqSdiuk)
 * [Find Sensitive Data](https://www.youtube.com/watch?v=EfQHaYu_OyU)
 * [UNC Path Injection](https://www.youtube.com/watch?v=a07OcFkeu8w)
