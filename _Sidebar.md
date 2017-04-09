@@ -32,6 +32,7 @@
 * [Get Windows Auto Login Passwords via SQL Server](https://blog.netspi.com/get-windows-auto-login-passwords-via-sql-server-powerupsql/)
 * [Establishing Registry Persistence via SQL Server](https://blog.netspi.com/establishing-registry-persistence-via-sql-server-powerupsql/)
 * [Crawling SQL Server Links](https://blog.netspi.com/sql-server-link-crawling-powerupsql/)
+* [Using SQL Server to Attack Forest Trusts](http://www.labofapenetrationtester.com/2017/03/using-sql-server-for-attacking-forest-trust.html)
 
 ## PowerUpSQL Videos
 
