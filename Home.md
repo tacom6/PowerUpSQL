@@ -15,6 +15,6 @@ The PowerUpSQL module includes functions that support SQL Server discovery, audi
 ### Module Information
 * Author: Scott Sutherland (@_nullbind), NetSPI - 2016
 * Major Contributors: Antti Rantasaari and Eric Gruber (@egru)
-* Contributors: Alexander Leary (@0xbadjuju), @leoloobeek, and @ktaranov
+* Contributors: Alexander Leary (@0xbadjuju), @leoloobeek, Mike Manzotti (@mmanzo_), and @ktaranov
 * License: BSD 3-Clause
 * Required Dependencies: None
