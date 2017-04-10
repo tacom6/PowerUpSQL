@@ -1,6 +1,6 @@
 These are the functions used to quickly dump database information, audit for common vulnerabilities, and attempt to obtain sysadmin privileges.
 
-|Function Name                 |Description |Obtains Sysadmin|
+|Function Name                 |Description |Obtains Sysadmin Privs|
 |:-----------------------------|:-----------|:-----------|
 |Invoke-SQLDumpInfo|This can be used to dump SQL Server and database information to csv or xml files.  This can be handy for doing a quick inventory of databases, logins, privileges etc.| No |
 |Invoke-SQLAudit|This can be used to review the SQL Server and databases for common configuration weaknesses and provide a vulnerability report along with recommendations for each item.| No |
