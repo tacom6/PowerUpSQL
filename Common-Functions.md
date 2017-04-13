@@ -33,6 +33,7 @@ These functions are used for common information gathering tasks.  Similar to cor
 |Get-SQLTriggerDdl|Returns DDL trigger information from target SQL Servers.  This includes logon triggers.|
 |Get-SQLTriggerDml|Returns DML trigger information from target SQL Servers.|
 |Get-SQLView|Returns view information from target SQL Servers.|
+|Get-SQLLocalAdminCheck|Checks if the current Windows user has local administrator privileges and is running in an elevated process on the system.|
 
 **Examples:**
 
