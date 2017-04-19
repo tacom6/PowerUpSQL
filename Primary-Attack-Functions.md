@@ -7,6 +7,8 @@ These are the functions used to quickly dump database information, audit for com
 |Invoke-SQLEscalatePriv|This can be used to obtain sysadmin privileges via identified configuration weaknesses.| Yes|
 |Invoke-SQLImpersonateService | This can be used to impersonate a provided SQL Server service account using a provided SQL Server instance as a local admin . After impersonation any PowerUpSQL command can be run in the sysadmin context.| Yes |
 |Invoke-SQLImpersonateServiceCmd | This can be used to run any OS command as the target SQL Server service account. It can be used to provide a local administrator with sysadmin privileges.| Yes |
+|Invoke-SQLOSCmd|Run OS commands as the SQL Server service account via xp_cmdshell. Typically requires sysadmin privileges.|No|
+|Invoke-SQLOSCmdCLR|Run OS commands as the SQL Server service account via CLR assemblies.  Does not require reading a DLL from disk. Typically requires sysadmin privileges.|No
 
 **Examples:**
 
