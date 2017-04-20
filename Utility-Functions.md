@@ -14,6 +14,8 @@ These are essentially helper functions.  Some of them are used by other PowerUpS
 |Get-DomainObject | Used to query domain controllers via LDAP.  Supports alternative credentials from non-domain system.|
 |Get-SQLStoredProcedureSQLi|Returns stored procedures using dynamic SQL and the "WITH EXECUTE AS OWNER" clause. If the stored procedure is vulnerable to SQLi it may be possible to impersonate the procedure owner.
 |Get-SQLServerLoginDefaultPw|Based on the instance name, test if SQL Server is configured with default passwords.
+|Create-SQLFileXpDll|Used to generate DLLs that can be imported to create a custom stored procedure that executes OS commands
+|Create-SQLFileCLRDll|Used to generate DLLs that can be imported to create a CLR stored procedure that executes OS commands.  It also generate a file that can generate TSQL code for creating the procedure without the DLL.
 
 **Examples:** 
 
