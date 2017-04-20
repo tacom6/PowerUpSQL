@@ -49,11 +49,8 @@ These are essentially helper functions.  Some of them are used by other PowerUpS
 	Invoke-SqlOSCmdAgentVbscript			
 	Invoke-SqlOSCmdAgentJsscript
 	Invoke-SqlOSCmdAgentOther
-	Invoke-SqlOSCmdAssemblyCLR
 	Invoke-SqlOSCmdAssemblyXP             		
 	Invoke-SqlOSCmdServerLinkMd			
 	Invoke-SqlOSCmdSsisExecuteProcessTask
-	Create-SQLFileCLRDll
-	Create-SQLFileXpDll
 	Enable-FullRegRead
 	Disable-FullRegRead
